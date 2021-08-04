@@ -1,0 +1,188 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: steelblue;
+  margin: 0 auto;
+}
+
+.main-menu {
+  background-image: url(../images/about-header.jpg);
+  height: 20vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-title {
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  margin-bottom: 5px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 15px 10px 5px whitesmoke;
+ }
+
+.main-menu ul {
+  text-align: center;
+  margin: 2px;
+  display: block;
+}
+
+.main-menu li {
+  padding: 0 .6em;
+  display: inline;
+}
+
+.main-menu a {
+  margin-top: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight:  bold;
+}
+
+.main-menu a:hover {
+    background-color: black;
+}
+
+ul, li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+h2, p, h2 + p, ul + p, #core-strenght {
+  font-size: 25px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-weight: bold;
+  color: #33333;
+  text-align: center;
+  font-size: 3.5em;
+}
+
+.flag {
+  float: left;
+  height: 120px;
+  width: 120px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.youtube {
+  padding-left: 20px;
+}
+
+/* ................. footer css codes .................... */
+
+.main-footer {
+  background: steelblue;
+  color: white;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+  margin-right: 5px;
+}
+
+.footer-nav li {
+  padding: 0 .5em;
+}
+
+.footer-nav img {
+  width: 20px;
+  height: 20px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/* ........... Projects css coding .............. */
+
+img {
+  width: 100px;
+}
+
+a {
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.head {
+  background: rgb(91, 51, 255);
+  color: #f7fff7;
+  margin: 0 auto;
+}
+
+.projects {
+  background: rgb(127, 255, 51);
+  color: white;
+  margin: 0 auto;
+}
+
+.project a {
+  color: blue;
+}
+
+.btn {
+  color: #f7fff7;
+  background: #2f3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+
+.work-experience {
+  background: #a1c6d7;
+  margin: 0 auto;
+}
+
+.education {
+  background: rgb(91, 51, 255);
+  margin: 0 auto;
+}
+
+.education h2, h3 {
+  font-size: 1em;
+}
+
+.work-experience, .education {
+  padding: 0;
+  margin: 0;
+}
