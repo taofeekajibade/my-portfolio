@@ -64,6 +64,10 @@ h2, p, h2 + p, ul + p, #core-strenght {
   text-align: justify;
 }
 
+h2{
+  text-align: center;
+}
+
 .content-section {
   margin: 1em;
 }
@@ -90,6 +94,10 @@ h2, p, h2 + p, ul + p, #core-strenght {
 
 .youtube {
   padding-left: 20px;
+}
+
+.projects{
+  background-color: steelblue;
 }
 
 /* ................. footer css codes .................... */
