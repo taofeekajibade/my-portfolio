@@ -1,0 +1,221 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/about-header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 15vh;
+  text-shadow: 4px 6px 4px cyan;
+  font-size: 30px;
+  color: floralwhite;
+  font-weight: bold;
+  font-style: italic;
+}
+
+article {
+  background-color: whitesmoke;
+}
+
+article li {
+  list-style-type: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
+p {
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  text-align: justify;
+}
+
+h2, h3 {
+  margin-left: 30px;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  font-size: 3.5em;
+}
+
+.flag {
+  float: left;
+  height: 120px;
+  width: 120px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+/* ................. footer css codes .................... */
+
+.main-footer {
+  background: steelblue;
+  color: white;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+  margin-right: 3px;
+}
+
+.footer-nav{
+  padding-right: 10px;
+}
+
+.footer-nav li, a {
+  padding: 0 .5em;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer-nav img {
+  width: 20px;
+  height: 20px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+/* ........... Contact Page .............. */
+
+address{
+  margin-left: 30px;
+  font-size: 25px;
+}
+/* ........... Projects css coding .............. */
+
+.myproject{
+  width: 100%;
+}
+
+.head {
+  background: rgb(207, 99, 23);
+  color: #f7fff7;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.head h2{
+  margin: 25px;
+  font-size: 25px;
+}
+
+.projects {
+  background: rgba(9, 121, 94, .88);
+  color: #f7fff7;
+  margin: auto;
+}
+
+.projects h2 {
+  margin: 25px;
+  font-size: 25px;
+}
+
+p a, .projects a {
+  color: rgba(0, 203, 255, 100);
+}
+
+.btn {
+  background: #f7fff7;
+  text-decoration: none;
+  padding: 8px; margin: 3px;
+  border-radius: 20px;
+  display:inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+
+.work-experience {
+  background: rgb(207, 99, 23);
+  color: #f7fff7;
+  margin: auto;
+}
+
+.work-experience h2, .work-experience h3{
+  margin: 25px;
+  font-size: 25px;
+}
+
+.education {
+  background: rgba(9, 121, 94, .88);
+  color: #f7fff7;
+  margin: auto;
+}
+
+.education h2, .education h3 {
+  margin: 25px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* -------------- side nav -------------- */
+
+#sideNav {
+  width: 200px;
+  height: 100vh;
+  position: absolute;
+  right: -200px;
+  top: 0;
+  background: rgba(12, 20, 255, 0.30);
+  z-index: 2;
+  transition: 0.5s;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 40px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#menuBtn {
+  width: 40px;
+  height: 30px;
+  background: white;
+  text-align: center;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  border-radius: 5px;
+  z-index: 3;
+  cursor: pointer;
+}
