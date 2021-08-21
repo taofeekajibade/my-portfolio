@@ -1,30 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClearGoal Digital Services</title>
-    <link href="styles/style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
+<html>
+  <head>
+  <meta name="viewport" content="width =device-width, initial-scale=1.0">
+<title>ClearGoal Digital Services</title>
+  <link href="css/allo.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ </head>
+  
 <body>
+
 <header>
-  <div class="main-menu">
-   <nav>
-       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#" title="Learn more about our services.">Our Services</a></li>
-        <li><a href="profile.html" title="Get a peep of our projects.">Profile</a></li>
-        <li><a href="#" title="This is who we are.">About Us</a></li>
+ <div class="wrapper"> ClearGoal Digital Services</div>
+</header>
+
+ <div id="sideNav">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        <li><a href="digital.html" title="Learn more about our services.">Digital</a></li>
+        <li><a href="portfolio.html" title="Get a peep of our projects.">Profile</a></li>
+        <li><a href="#about.html" title="This is who we are.">About Us</a></li>
         <li><a href="zuri.html" title="Projects done on Zuri Internship Platform.">Zuri Internship</a></li>
         <li><a href="contacts.html" title="Get in touch for enquiries.">Contact Us</a></li>
-  </ul>
- </nav>
-<h1 class="header-title"> ClearGoal Digital Education</h1>
-</div>
-</header>
+        </ul>
+      </nav>
+    </div>
+    <div id="menuBtn">
+      <div id="menu">&#9776</div>
+    </div>
 
   <section class="content-section container">
   <h2 class="section-header">ABOUT US</h2>
@@ -34,14 +38,36 @@
 
   <footer class="main-footer">
     <div class="container main-footer-container">
-    <h3 class="header-title">ClearGoal Digital Concept</h3>
+    <h3 class="header-title">ClearGoal Digital Services</h3>
       <ul class="nav footer-nav">
-        <li><a href="index.html" target="_blank"> <img src="images/dove.png"> Home</a></li>
-        <li><a href="services" target="_blank"><img src="images/favorite-1.jpg">Our Services</a></li>
+        <li><a href="index.html" target="_blank"><img src="images/dove.png"> Home</a></li>
+        <li><a href="#about.html" target="_blank"><img src="images/favorite-1.jpg">About Us</a></li>
         <li><a href="contacts.html" target="_blank"><img src="images/favorite-2.jpg">Contact Us</a></li>
       </ul>
     </div>
      <p class="copyright">Copyright &copy; 2021 ClearGoal Digital Concept. All rights reserved.</p>
     </footer>
+
+<script>
+      var menuBtn = document.getElementById("menuBtn")
+      var sideNav = document.getElementById("sideNav")
+      var menu = document.getElementById("menu")
+
+      sideNav.style.right = "-200px";
+
+      menuBtn.onclick = function() {
+        if(sideNav.style.right == "-200px"){
+          sideNav.style.right = "0";
+          menu.src = "&times";
+          // menu.src = "images/close-icon.png";
+        }
+        else{
+          sideNav.style.right = "-200px";
+          menu.src = "&#9776";
+          // menu.src = "images/nav-icon.png";
+        }
+      }
+    </script>
+
   </body>
-  </html>
+</html>
