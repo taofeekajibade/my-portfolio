@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width =device-width, initial-scale=1.0">
+<title>ClearGoal Digital Services</title>
+  <link href="css/allo.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ </head>
+  
+<body>
+
+<header>
+ <div class="wrapper"> ClearGoal Digital Services</div>
+</header>
+
+ <div id="sideNav">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        <li><a href="digital.html" title="Learn more about our services.">Digital</a></li>
+        <li><a href="portfolio.html" title="Get a peep of our projects.">Profile</a></li>
+        <li><a href="about.html" title="This is who we are.">About Us</a></li>
+        <li><a href="zuri.html" title="Projects done on Zuri Internship Platform.">Zuri Internship</a></li>
+        <li><a href="#contacts.html" title="Get in touch for enquiries.">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menuBtn">
+      <div id="menu">&#9776</div>
+    </div>
+
+    <h1 class="section-header">Contact Us</h1>
+
+<p>For any enquiries, you can reach us out at the following address:</p>
+  <address>110/113 Banjo owoyele street<br>
+    Ojokoro, Agbado-Ijaye<br>
+    Lagos State<br>
+    Nigeria</address>
+  
+<p>Or<a href="mailto:cleargoal.ng@gmail.com">send us email.</a>We would be glad to have your feedback.</p>
+
+<footer class="main-footer">
+    <div class="container main-footer-container">
+    <h3 class="header-title">ClearGoal Digital Services</h3>
+      <ul class="nav footer-nav">
+        <li><a href="index.html" target="_blank"><img src="images/dove.png"> Home</a></li>
+        <li><a href="about.html" target="_blank"><img src="images/favorite-1.jpg">About Us</a></li>
+        <li><a href="#contacts.html" target="_blank"><img src="images/favorite-2.jpg">Contact Us</a></li>
+      </ul>
+    </div>
+     <p class="copyright">Copyright &copy; 2021 ClearGoal Digital Concept. All rights reserved.</p>
+    </footer>
+
+<script>
+      var menuBtn = document.getElementById("menuBtn")
+      var sideNav = document.getElementById("sideNav")
+      var menu = document.getElementById("menu")
+
+      sideNav.style.right = "-200px";
+
+      menuBtn.onclick = function() {
+        if(sideNav.style.right == "-200px"){
+          sideNav.style.right = "0";
+          menu.src = "&times";
+          // menu.src = "images/close-icon.png";
+        }
+        else{
+          sideNav.style.right = "-200px";
+          menu.src = "&#9776";
+          // menu.src = "images/nav-icon.png";
+        }
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width =device-width, initial-scale=1.0">
+<title>ClearGoal Digital Services</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  </head>
+
+  <body>
+    <section id="banner">
+      <img src="images/flag.jpeg" class="logo">
+      <div class="banner-text">
+      <h1>Digital Education</h1>
+      <h4>It's all about Digital teaching and learning </h4>
+      <div class="banner-btn">
+        <a href="digital.html"><span></span>Find out</a>
+        <a href="profile.html"><span></span>Read more</a>
+      </div>
+    </div>
+    </section>
+    <div id="sideNav">
+      <nav>
+        <ul>
+        <li><a href="#index.html">Home</a></li>
+        <li><a href="digital.html" title="Learn more about our services.">Digital</a></li>
+        <li><a href="portfolio.html" title="Get a peep of our projects.">Profile</a></li>
+        <li><a href="about.html" title="This is who we are.">About Us</a></li>
+        <li><a href="zuri.html" title="Projects done on Zuri Internship Platform.">Zuri Internship</a></li>
+        <li><a href="#contacts.html" title="Get in touch for enquiries.">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menuBtn">
+      <div id="menu">&#9776;</div>
+    </div>
+
+<!-- Features -->
+
+<section id="feature">
+  <div class="title-text">
+    <p>FEATURES</p>
+    <h1>How We are Different</h1>
+  </div>
+  <div class="feature-box">
+    <div class="features">
+      <h1>Experienced Staff</h1>
+      <div class="features-desc">
+        <div class="feature-icon"></div>
+        <i class="fa fa-shield"></i>
+         <div class="feature-text"></div>
+         <p>Entered our own Microsoft 365 tenant email address in the field labeled Startandwaitforanapproval_Assignedto (Note: you can see your tenant email address if you click on the circle with your initials in the upper-right corner)</p>
+      </div>
+     </div>
+      <div class="features-img">
+      <img src="images/blue-sky.jpg">
+     </div>
+  </div>
+</section>
+<!-- Services -->
+
+<section id="service">
+  <div class="title-text">
+    <p>SERVICES</p>
+    <h1>Consulting Services for Schools</h1>
+  </div>
+  <div class="service-box">
+    <div class="single-service">
+      <img src="images/tiredreading.png">
+      <div class="overlay"></div>
+      <div class="service-desc">
+        <h3>Virtual Learning</h3>
+        <hr>
+        <p>We offer top-notch virtual teaching to all classes of learners.</p>
+      </div>
+    </div>
+    <div class="single-service">
+      <img src="images/pexels-back-image.jpeg">
+      <div class="overlay"></div>
+      <div class="service-desc">
+        <h3>School Management Website</h3>
+        <hr>
+        <p>We offer top-notch virtual teaching to all classes of learners.</p>
+      </div>
+    </div>
+    <div class="single-service">
+      <img src="images/academic excellence2.jpg">
+      <div class="overlay"></div>
+      <div class="service-desc">
+        <h3>Affordable Consulting Services</h3>
+        <hr>
+        <p>We offer top-notch virtual teaching to all classes of learners.</p>
+      </div>
+    </div>
+    <div class="single-service">
+      <img src="images/test-image.jpg">
+      <div class="overlay"></div>
+      <div class="service-desc">
+        <h3>Allied Services</h3>
+        <hr>
+        <p>We offer top-notch virtual teaching to all classes of learners.</p>
+      </div>
+    </div>
+    
+  </div>
+
+<section class="social">
+ <div class="social title"> Connect with us through our social media handles
+ </div>
+
+   <div class="icons">
+
+    <a href="#" class="icons fa-twitter">Twitter</a>
+    <a href="#" class="icons fa-linkedin">Linkedin</a>
+    <a href="#" class="icons fa-youtube">Youtube</a>
+    <a href="#" class="icons fa-instagram">Instagram</a>
+    <a href="#" class="icons fa-facebook">Facebook</a>
+    
+</div>
+</section>
+
+<footer class="main-footer">
+    <div class="container main-footer-container">
+    <h3 class="header-title">ClearGoal Digital Services</h3>
+      <ul class="nav footer-nav">
+        <li><a href="#index.html"><img src="images/dove.png">Home</a></li>
+        <li><a href="about.html"><img src="images/favorite-1.jpg">About Us</a></li>
+        <li><a href="contacts.html"><img src="images/favorite-2.jpg">Contact Us</a></li>
+      </ul>
+    </div>
+     <p class="copyright">Copyright &copy; 2021 ClearGoal Digital Concept. All rights reserved.</p>
+    </footer>
+
+   <script>
+      var menuBtn = document.getElementById("menuBtn")
+      var sideNav = document.getElementById("sideNav")
+      var menu = document.getElementById("menu")
+
+      sideNav.style.right = "-200px";
+
+      menuBtn.onclick = function() {
+        if(sideNav.style.right == "-200px"){
+          sideNav.style.right = "0";
+          menu.src = "&times";
+        }
+        else{
+          sideNav.style.right = "-200px";
+          menu.src = "&#9776";
+        }
+      }
+    </script>
+
+
+  </body>
+  </html>
