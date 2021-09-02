@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* about section  */
+
+
+.about-co {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-gap: 5px;
+}
+
+.right-col {
+    width: 100%;
+}
+
+.left-col {
+    display: grid;
+    grid-auto-flow: inherit;
+}
+h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.who-we {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p {
+    margin: 5px;
+    padding: 5px;
+}
+
+.about.info {
+    font-size: 1.2rem;
+    line-height: 35px;
+}
+
+/* contact form */
+
+.contact {
+    display: block;
+    height: 700px;
+    margin: 30px 0;
+    border-radius: 3px;
+    padding: auto;
+    
+}
+
+.contact-us {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.contact-form input, .message {
+    width: 80%;
+    display: flex;
+    height: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #000;
+    margin: 30px 0;
+    resize: none;
+}
+
+.message {
+    height: 150px;
+}
+
+.name {
+
+  justify-items: center;
+}
+
+.name input, .message, label {
+    margin: 10px;
+}
+
+
+.btn {
+    right: 2px;
+    cursor: pointer;
+    background: blue;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 40px;
+    padding-right: 40px;
+}
