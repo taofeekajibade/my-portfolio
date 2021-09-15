@@ -118,14 +118,14 @@
 }
 
 .learn {
-/*     font-family: san serif; */
+    font-family: sans-serif;
     font-size: 12px;
     width: 90%;
 }
 
-.name:hover, .learn:hover {
+/* .name:hover, .learn:hover {
     background: rgb(59, 27, 80);
-}
+} */
 
 .flag {
     width: 40px;
@@ -133,7 +133,7 @@
     border-radius: 50%;
     cursor: pointer;
 }
-
+/* -----------RESPONSIVE DESIGN ---------- */
 
   @media (max-width: 28.75em) {
     .nav {
