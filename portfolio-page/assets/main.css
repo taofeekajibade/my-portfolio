@@ -118,7 +118,7 @@
 }
 
 .learn {
-    font-family: san serif;
+/*     font-family: san serif; */
     font-size: 12px;
     width: 90%;
 }
@@ -213,7 +213,7 @@
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
+    grid-gap: 3.5rem;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -246,12 +246,7 @@
     border-radius: 2px;
   }
   
-  .code {
-    color: var(--main-gray);
-    transition: color 0.3s ease-out;
-  }
-  
-  .project:hover .code {
+   .project:hover .code {
     color: #ff7f50;
   }
   
