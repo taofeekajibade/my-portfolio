@@ -1,15 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Design - Kodecamp</title>
-    <link rel="stylesheet" href="css\bootstrap.min.css">
-    <link rel="stylesheet" href="css\style.css">
+<head> 
+    <title>Responsive Website - Kodecamp Test</title>
+    <meta name="Keywords">
+    <meta name="Description">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font" />
+    <link href="main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
+
     <nav class="container navbar">
         <div class="logo-flag-container">
             <div>
@@ -21,133 +24,131 @@
         </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" <a href="/">Home</a>/>
-          </svg>
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path></svg>
 
     </nav>
-    <section class="hero-bg">
-        <div class="container">
-        <div class="pt-5 col-12 col-md-6 col-lg-6 text-center">
-            <h4 class="text-white">HOUSE REPAIR</h4>
-        <h1 class="text-white border-bottom border-5 border-white pb-3">SERVICES</h1>
-            <div class="row">
-            <div class="col-4 col-md-4 col-lg-4 d-none d-lg-block d-md-block">
-                <img src="images\paint-brush.png" alt="painting" class="py-3">
-                <h4>Painting</h4>
-            </div>
-            <div class="col-4 col-md-4 col-lg-4 d-none d-lg-block d-md-block">
-                <img src="images\elctrical.png" alt="electrical-tool" class="py-3">
-                <h4>Electricity</h4>
-            </div>
-            <div class="col-4 col-md-4 col-lg-4 d-none d-lg-block d-md-block">
-                <img src="images\tap-icon.png" alt="repairs" class="py-3">
-                <h4>Repairs</h4>
-            </div>
+<div class="hero-section">
+   
+       <img src="images\hero-painter.jpg" class="background-img">
+       <div class="hero-content">
+       <div class="hero-text">
+           <h1>HOUSE REPAIR</h1>
+           <h2>SERVICES</h2>
+        </div>
+        <div class="hero-icons">
+            <div><img src="images/elctrical.png" alt="electrical work">
+            <h4>Painting</h4>
+        </div>
+        <div>
+            <img src="images/repair-icon.jpg" alt="electricity work">
+            <h4>Electricity</h4>
+        </div>
+        <div>
+            <img src="images/tap-icon.png" alt="tap icon">
+            <h4>Repair</h4>
+        </div>
         </div>
     </div>
-    </div>
-</section>
-<section class="container text-center py-5">
-    <h4 class="text-secondary fs-6">OUR SERVICES</h4>
-    <h2 class="fs-1">How Can We Help You?</h2>
-    <p>We specialize in making routine maintenance and emergency repair experiences worry free. <br>Give us a call today to learn how simple our process truly is!</p>
-    <button class="btn btn-danger px-4">BOOK NOW</button>
-</section>
+</div>
+ 
 
-<section class="container" py-5>
-    <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <img src="images\repairer2.jpg" alt="repairer" class="img-fluid">
-            <p>By planning ahead you can save yourself from feeling stressed and overwhelmed. Our Repair Services is the handyman service provider trusted throughout Pennsylvania.</p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <h4>Need Help Right Away?</h4>
-            <h4 class="text-danger">Call us now: 723-123-345</h4>
-            <img src="images\engineer.jpg" alt="engineer at work" class="img-fluid">
-        </div>
-    </div>
-</section>
-<section class="bg-light">
-    <div class="container">
-    <div class="row">
-        <div class="col-12 col-md-6 col-lg-6">
-            <div class="engineer-img vh-100"></div>
+<!--  HELP SECTION -->
 
-            </div>
-            <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center">
-                <div>
-                    <h3 class="text border-bottom border-5 border-danger py-4">BEST QUALITY</h3>
-                    <p>Company works with homeowners, contractors, realtors, and residential building managers to help maintain, upgrade, and repair properties</p>
-                <button class="btn btn-danger px-4">BOOK NOW</button>
+<div class="help-section">
+   <div class="help-message">
+       <h2>OUR SERVICES</h2>
+       <h2>How Can We Help You?</h2>
+       <p>We specialize in making routine maintenance and emergency repair experiences worry free. Give us a call today to learn how simple our process truly is!</p>
+       <button>BOOK NOW</button>
+       </div>
+       </div>
+
+<div class="engineers-container">
+
+    <div class="engineers">
+ <figure class="image-1">
+            <img src="images\repairer2.jpg" alt="engineer repairing a wash-hand basin">
+            <figcaption>By planning ahead you can save yourself from feeling stressed and overwhelmed. Our Repair Services is the handyman service provider trusted throughout Pennsylvania.</figcaption>
+            </figure>
+            <figure class="image-2">
+                <figcaption>
+                    <p>Need Help Right Away?</p>
+                   <p>Call us now: 723-123-345</p>
+                </figcaption>
+                   <img src="images\engineer.jpg" alt="engineer in a control room">
+            </figure>
+               </div>
+               </div>
+        
+            <div class="quality">
+                <div class="quality-container">
+                <div class="quality-img">
+                    <img src="images\engineer2.png" alt="an engineer at work">
                 </div>
-            </div>
+                <div class="quality-text">
+                    <div>
+                    <h2>BEST QUALITY</h2>
+                <p>Company works with homeowners, contractors, realtors, and residential building managers to help maintain, upgrade, and repair properties</p></div>
+                 <button>BOOK NOW</button>
+          </div>
+          </div>
+          </div>
+            
+    <div class="services">
+        <h2>Our Services</h2>
+        <div class="services-units">
+        <div class="service">
+            <i class="fa fa-battery-full fa-3x"></i>
+            <h3>Painting</h3>
+                <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
         </div>
-    </div>
-</section>
-<section class="container py-5 px-2">
-    <h4 class="py-3">OUR SERVICES</h4>
-    <div class="row">
-        <div class="col-12 col-md-4 col-lg-4">
-            <i class="fa fa-battery-full fa-3x bg-danger rounded-circle p-4"></i>
-<h4>Painting</h4>
-<p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
+        <div class="service">
+            <i class="fa fa-battery-empty fa-3x"></i>
+            <h3>Electrical</h3>
+                <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
+        </div>
+        <div class="service">
+            <i class="fa fa-paint-brush fa-3x fa-flip-vertical"></i>
+               <h3>Repair</h3>
+               <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
+       </div>
+       </div>
+       </div>
+
+
+    <!-- ABOUT US SECTION -->
+    <div class="about-section">
+        <div class="about-section-container">
+        <div class="about-text">
+            <h2>ABOUT US</h2>
+            <h3>Plumbing Services</h3>
+            
+        </div>
+        <div class="img-section">
+            <img src="images/repairer.jpg">
+            <img src="images/reg-officer.jpg">
+            <img src="images/repairer2.jpg">
+            <img src="images/repairer3.jpg">
+        </div>
+        </div>
         </div>
 
-    <div class="col-12 col-md-4 col-lg-4">
-        <i class="fa fa-battery-empty fa-3x bg-danger rounded-circle p-4" ></i>
-     <h4>Electrical</h4>
-<p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
-    </div>
-    <div class="col-12 col-md-4 col-lg-4">
-        <i class="fa fa-paint-brush fa-3x fa-flip-vertical bg-danger rounded-circle p-4"></i>
-           <h4>Repair</h4>
-           <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
-   </div>
-    </div>
-</section>
-<section class="bg-primary">
-    <div class="container py-5">
-    <div class="row text-white">
-        <div class="col-12 col-md-6 col-lg-6">
-            <h4>About Us</h4>
-            <h3 class="display-1">Plumbing Services</h3>
-            </div>
-            <div class="col-12 col-md-6 col-lg-6">
-                <div class="row pt-4">
-                    <div class="col-6 col-md-6 col-sm-12">
-                        <div>
-                            <img src="images/repairer.jpg" class="img-fluid">
-                            </div>
-                            <div>
-                                <img src="images/reg-officer.jpg" class="img-fluid">
-                            </div>
-                        </div>
-                            <div class="col-6 col-md-6 col-sm-12">
-                            <div>
-                                <img src="images/repairer2.jpg" class="img-fluid">
-                            </div>
-                            <div>
-                                <img src="images/repairer3.jpg" class="img-fluid">
-                            </div>
-                       </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-</section>
+       <!-- NEW TO-DO -->
 
-<section class="text-center py-5 vh-70">
-    <h4 class="fw-bold">Get your 'TO-DO' list completed by a real professional!</h4>
-    <p>We are on a mission to help build long-lasting brands that shape and <br>define an entire industry through thoughtful designs.</p>
-    <button class="btn btn-danger px-4">BOOK NOW</button>
-    <button class="btn px-4">CALL US</button></div>
-</section>
+<div class="to-do-section">
+  <div class="what-we-do">
+    <h2>Get your 'TO-DO' list completed by a real professional!</h2>
+    <p>We are on a mission to help build long-lasting brands that shape and define an entire industry through thoughtful designs.</p>
+    <div><button>BOOK NOW</button>
+    <button>CALL US</button></div>
+  </div>
+</div>
 
-<footer class="text-center py-5 bg-dark text-white">
+<!-- FOOTER -->
+<footer>
     <p>&copy; 2021 ClearGoal painting Services</p>
     <p>Contact us for your painting services</p>
 </footer>
-    
-<script src="js\bootstrap.min.js"></script>
+
 </body>
 </html>
