@@ -10,10 +10,6 @@
     font-family: 'Nanum Myeongjo', serif;
 }
 
-body {
-    margin: 0;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
