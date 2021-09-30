@@ -1,4 +1,0 @@
-document.getElementsByClass("headers-item")[0].style.fontSize = "4vw";
-
-let d = new Date();
-document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"
