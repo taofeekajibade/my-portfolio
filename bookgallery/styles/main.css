@@ -86,7 +86,7 @@ textarea {
 }
 
 .hero-image {
-  background-image: url('images/student.jpg');
+  background-image: url(images/student.jpg);
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
