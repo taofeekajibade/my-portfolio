@@ -86,20 +86,19 @@ textarea {
 }
 
 .hero-image {
-  background-image: url(https://media.premiumtimesng.com/wp-content/files/2020/06/cropped-i-would-have-told-wole-soyinka-to-stand-up-daddy-freeze-supports-young-man-who-sent-wole-soyinka-packing-2-1.jpg);
+  background-image: url(../images/soyinka.jpg);
   background-color: #cddccd;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 500px;
   position: relative;
 }
 
 .hero-text {
   text-align: center;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  font-family: 'Inria Serif', serif;
 }
