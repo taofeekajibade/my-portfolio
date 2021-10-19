@@ -5,9 +5,10 @@
     /* background-color: #E5E5E5; */
 }
 
-body {
+html, body {
     background-color: #FCFEFE;
     opacity: 0.2px;
+    overflow-x: hidden;
 
 }
 
