@@ -1,15 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&family=Yeseva+One&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #E5E5E5; */
 }
 
 html, body {
     background-color: #FCFEFE;
     opacity: 0.2px;
     overflow-x: hidden;
+    font-family: 'Work Sans', sans-serif;
+}
 
+/* NEW CONTACT US */
+
+
+.dark-blue {
+    height: 15rem;
+    width: 100%;
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+}
+.sky-blue {
+    height: 15rem;
+    width: 100%;
+    background-color:#BFD2F8;
+    color: #1F2B6C;
+}
+.blue-content {
+    line-height: 0.5rem;
+    font-size: 0.8rem;
+}
+    #submit-btn {
+    font-size: 0.8rem;
+    color: #1F2B6C;
+}
+.text-seablue{
+    color: #159EEC;
+}
+.text-skyblue{
+    color: #BFD2F8;
+}
+.text-darkblue{
+    color: #1F2B6C;
+}
+.yeseva-2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 2rem;
+}
+.body{
+    font-size: 1rem;
+}
+.small{
+    font-size: 0.7rem;
+}
+.git {
+    color: #159EEC;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.contact {
+    color:  #1F2B6C;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: normal;
 }
 
 .hero-image {
@@ -307,9 +362,6 @@ a:hover{
 #mobile-footer-logo{
     width: 90%;
 }
-
-
-
 
 @media(max-width: 768px){
     #mobile-footer-logo{
