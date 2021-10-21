@@ -79,7 +79,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
   .card-img-overlay p {
-    font-size: .55em !important;
+    font-size: .6em !important;
   }
   
   .card-img-overlay span {
