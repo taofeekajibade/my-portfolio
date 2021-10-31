@@ -51,7 +51,15 @@ postForm.addEventListener('submit', createPost)
     .then((response) => response.json())
     .then((data) => {
         console.log('post', data);
+        console.log(userPost)
+        userPost.push(data);
+        console.log(userPost)
     alert('Congratulations! You have successfully created your posts.')
         
     })
+}
+
+function deletePost(postId) {
+    console.log(postId)
+
 }
