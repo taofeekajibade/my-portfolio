@@ -11,7 +11,7 @@ function getPosts(){
             // console.log(element)
             html += `
             <div class="col-md-4 mb-3">
-            <div class="card h-100">
+            <div class="card h-100 bg-info text-white">
                 <div class="card-body">
                     <h6 class="post-title mb-4 text-center text-info">${e.id}</h6>
                     <h5 class="post-title mb-4">${e.title}</h5>
