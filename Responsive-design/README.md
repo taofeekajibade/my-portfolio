@@ -1,2 +1,0 @@
-# Responsive-Website
- Kodecamp Assignment
